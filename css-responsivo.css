@@ -1,0 +1,51 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner-content {
+    padding: 0rem 1rem;
+  }
+
+  .banner-content > p {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  #course-content {
+    padding: 0rem 1rem;
+  }
+
+  #transform-world {
+    background-position: top;
+  }
+
+  #professional-challenges {
+    padding: 0rem 1rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner-content > p {
+    font-size: 1.25rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
